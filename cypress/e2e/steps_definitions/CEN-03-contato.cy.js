@@ -35,6 +35,16 @@ describe('Acessar Página Inicial', () => {
     cy.get('[name="form_fields[field_f77a763]"]')
       .should('be.visible').type(contatoPage.assunto);
 
+    //clicar no checkbox "Li e aceito os termos de uso"
+    cy.get('[name="form_fields[field_7651528]"]').should('be.visible').click();
+
+    // //clica no botão Enviar
+    // cy.get('.elementor-field-type-submit > .elementor-button').click();
+
+    // // mensagem de sucesso deve ser exibida
+    // cy.contains('As suas respostas foram recebidas com sucesso!')
+    //   .should('be.visible');
+
   })
 
 

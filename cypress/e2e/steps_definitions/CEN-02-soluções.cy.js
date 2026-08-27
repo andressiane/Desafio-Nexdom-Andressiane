@@ -20,18 +20,20 @@ describe('Acessar Página Inicial', () => {
     cy.url()
       .should('include', '/autorizacao-e-atendimento/');
 
+    cy.wait(1000);
+
     //verifica se está sendo possível clicar em "Motor de Regra de Negócio"
-    cy.get('#e-n-tab-title-737046922').should('be.visible').click();
+    cy.contains('Motor de Regra de Negócio').scrollIntoView().should('be.visible').click();
 
     cy.wait(1000);
 
     //verifica se está sendo possível clicar em "Autorizador On-line"
-    cy.get('#e-n-tab-title-737046923').should('be.visible').click();
+    cy.contains('Autorizador On-line').should('be.visible').click();
 
     cy.wait(1000);
 
     //verifica se está sendo possível clicar em "Auditoria Web"
-    cy.get('#e-n-tab-title-737046924').should('be.visible').click();
+    cy.contains('Auditoria Web').should('be.visible').click();
 
     cy.log('Navegação para "Autorização e Atendimento" realizada com sucesso');
 

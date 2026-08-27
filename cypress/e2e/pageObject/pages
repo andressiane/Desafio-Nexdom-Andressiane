@@ -7,9 +7,9 @@ class Pages {
   }
 
   menuSolucoes() {
-    cy.get('#e-n-menu-title-2393')
+    cy.get('#e-n-menu-dropdown-icon-2393')
       .should('be.visible')
-      .trigger('mouseover')
+      .click();
   }
 
   menuContato() {
