@@ -1,0 +1,13 @@
+/// <reference types="cypress" />
+
+class contatoPage {
+
+  nome = 'Andressiane Goulart (teste)';
+  email = 'andressiane_12@hotmail.com';
+  empresa = 'Empresa do Desafio de teste';
+  cargo = 'QA Pleno';
+  telefone = '(48) 99854-9055';
+  assunto = 'Teste para o Desafio de QA Pleno';
+
+}
+export default new contatoPage()

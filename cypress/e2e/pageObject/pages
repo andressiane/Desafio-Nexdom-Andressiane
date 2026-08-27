@@ -1,0 +1,20 @@
+/// <reference types="cypress" />
+
+class Pages {
+
+  visit() {
+    cy.visit('/')
+  }
+
+  menuSolucoes() {
+    cy.get('#e-n-menu-title-2393')
+      .should('be.visible')
+      .trigger('mouseover')
+  }
+
+  menuContato() {
+    cy.get('#e-n-menu-title-2396')
+      .should('be.visible').click();
+  }
+}
+export default new Pages()
