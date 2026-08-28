@@ -25,13 +25,10 @@ describe('Acessar Página Inicial', () => {
     //verifica se está sendo possível clicar em "Motor de Regra de Negócio"
     cy.contains('Motor de Regra de Negócio').scrollIntoView().should('be.visible').click();
 
-    cy.wait(1000);
-
     //verifica se está sendo possível clicar em "Autorizador On-line"
     cy.contains('Autorizador On-line').should('be.visible').click();
 
     cy.wait(1000);
-
     //verifica se está sendo possível clicar em "Auditoria Web"
     cy.contains('Auditoria Web').should('be.visible').click();
 

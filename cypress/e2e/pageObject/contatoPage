@@ -10,4 +10,10 @@ class contatoPage {
   assunto = 'Teste para o Desafio de QA Pleno';
 
 }
+
+
+
+
+
+
 export default new contatoPage()
