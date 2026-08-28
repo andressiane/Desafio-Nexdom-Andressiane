@@ -1,0 +1,57 @@
+# Desafio - Testes de API REST (GitHub) com Cypress
+
+Testa o fluxo completo de um repositório usando a API do GitHub:
+criação → consulta → criação de issue → consulta da issue → exclusão → confirmação da exclusão.
+
+## Como rodar
+
+1. Instalar as dependências:
+   ```
+   npm install
+   ```
+
+2. Copiar o arquivo de exemplo e preencher com seus próprios dados:
+   ```
+   cp cypress.env.json.example cypress.env.json
+   ```
+
+   Depois edite o `cypress.env.json` criado com um Personal Access Token válido:
+   ```json
+   {
+     "GITHUB_TOKEN": "seu_personal_access_token",
+     "GITHUB_USERNAME": "seu_usuario_do_github"
+   }
+   ```
+
+   O token deve ser um Personal Access Token **clássico** (GitHub > Settings >
+   Developer settings > Personal access tokens > Tokens (classic)), com os
+   escopos `repo` (criar/consultar/excluir repositório e issues) e `delete_repo`
+   (necessário especificamente para o passo de exclusão do repositório).
+
+   > O `cypress.env.json` não é versionado (está no `.gitignore`) justamente
+   > porque contém um token pessoal. Cada pessoa que for rodar os testes
+   > precisa gerar e usar o seu próprio token.
+
+3. Rodar os testes:
+   ```
+   npm run cy:run
+   ```
+
+   Ou abrir a interface visual do Cypress:
+   ```
+   npm run cy:open
+   ```
+
+## Estrutura
+
+```
+cypress/
+├── e2e/
+│   └── api/
+│       └── github-repo-api.cy.js   <- os 6 testes do fluxo de API
+└── support/
+    ├── e2e.js
+    └── commands.js
+cypress.config.js
+cypress.env.json   <- não é versionado (está no .gitignore)
+```

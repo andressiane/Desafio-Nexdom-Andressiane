@@ -1,4 +1,5 @@
 const { defineConfig } = require("cypress");
+require("dotenv").config();
 
 module.exports = defineConfig({
   allowCypressEnv: false,
@@ -7,7 +8,8 @@ module.exports = defineConfig({
     baseUrl: 'https://nexdom.tec.br',
 
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+
+      return config;
     },
   },
 });

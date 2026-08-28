@@ -15,6 +15,7 @@ describe('Acessar Página Inicial', () => {
     //o logo da página deve estar visível
     cy.get('[data-id="6eeb4ab"]').find('.elementor-icon').should('be.visible');
 
+<<<<<<< HEAD
     //o menu "Soluções" está vísivel e clicar no menu "Soluções"
     pages.menuSolucoes();
 
@@ -55,6 +56,38 @@ describe('Acessar Página Inicial', () => {
       .scrollIntoView().should('be.visible');
 
 
+=======
+    //o menu "Soluções" está vísivel
+    pages.menuSolucoes();
+
+    //Verifica se o Menu Sobre Nós é exibido
+    pages.menuSobre();
+
+    //fecha o dropdown
+    pages.fechandoDropdwon();
+    cy.wait(3000);
+
+    //Visualiza a parte de "Nossos números"
+    pages.nossosNumeros();
+    cy.wait(3000);
+
+    //Visualiza a parte de "Nosso vídeo"
+    pages.nossoVideo();
+    cy.wait(3000);
+
+    //Visualiza a parte de "Conheça nossas soluções"
+    pages.nossasSolucoes();
+    cy.wait(3000);
+
+    //Visualiza a parte de "Diferenciais"
+    pages.pgDiferenciais();
+    cy.wait(3000);
+
+
+    //Visualizar a parte de "Nosso propósito"
+    pages.nossoProposito();
+
+>>>>>>> b4ff243 (ultimas alterações)
     cy.log('Cypress verificou a página inicial inteira"');
 
   })

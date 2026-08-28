@@ -7,14 +7,43 @@ class Pages {
   }
 
   menuSolucoes() {
-    cy.get('#e-n-menu-dropdown-icon-2393')
+    cy.get('#e-n-menu-title-2393')
       .should('be.visible')
-      .click();
+      .trigger('mouseover')
   }
 
   menuContato() {
     cy.get('#e-n-menu-title-2396')
       .should('be.visible').click();
+  }
+
+  fechandoDropdwon() {
+    cy.get('body').click(500, 700);
+  }
+
+  nossosNumeros() {
+    cy.get('[data-id="7dc5b97"]')
+      .scrollIntoView().should('be.visible');
+  }
+
+  nossoVideo() {
+    cy.get('[data-id="92ca598"]')
+      .scrollIntoView().should('be.visible');
+  }
+
+  nossasSolucoes() {
+    cy.get('[data-id="156e92c"]')
+      .scrollIntoView().should('be.visible');
+  }
+
+  pgDiferenciais() {
+    cy.get('[data-id="5094aad"]')
+      .scrollIntoView().should('be.visible');
+  }
+
+  nossoProposito() {
+    cy.get('[data-id="336a425"]')
+      .scrollIntoView().should('be.visible');
   }
 }
 export default new Pages()

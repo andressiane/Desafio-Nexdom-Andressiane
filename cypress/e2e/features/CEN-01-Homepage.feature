@@ -12,22 +12,31 @@ E o cabeçalho da página deve estar visível
 E o logo da página deve estar visível
 Quando o usuário clicar para abrir o menu "Soluções"
 Então o menu de soluções deve ser exibido
-E o elemento "Gestão de planos de saúde" deve estar visível
+E o menu "Sobre Nós" deve ser exibido
 
-//OUTROS CASOS DE TESTE//
-@Pendente @ct-02
-Esquema do Cenário: Verificar opções do menu de navegação
-Dado que o usuário acessa a página inicial da NEXDOM
-Então o menu "Home" deve estar visível
-E o menu "Sobre nós" deve estar visível
-E o menu "Soluções" deve estar visível
-E o menu "Parceiros" deve estar visível
-E o menu "Carreiras" deve estar visível
-E o menu "Contato" deve estar visível
+@ct-02 @secoes
+Cenário: Verificar as principais seções da página inicial
+Quando o usuário navega pela página inicial
+Então a seção "Nossos números" deve estar visível
+E a seção "Nosso vídeo" deve estar visível
+E a seção "Conheça nossas soluções" deve estar visível
+E a seção "Diferenciais" deve estar visível
+E a seção "Nosso propósito" deve estar visível
 
-@Pendente @ct-03
-Esquema do Cenário: Verificar informações do banner principal
-Dado que o usuário acessa a página inicial da NEXDOM
-Então o texto principal do banner deve estar visível
-E o botão 'Saiba mais' deve estar visível
-E o botão 'Saiba mais' deve estar habilitado
+# //OUTROS CASOS DE TESTE//
+# @Pendente @ct-03
+# Esquema do Cenário: Verificar opções do menu de navegação
+# Dado que o usuário acessa a página inicial da NEXDOM
+# Então o menu "Home" deve estar visível
+# E o menu "Sobre nós" deve estar visível
+# E o menu "Soluções" deve estar visível
+# E o menu "Parceiros" deve estar visível
+# E o menu "Carreiras" deve estar visível
+# E o menu "Contato" deve estar visível
+
+# @Pendente @ct-04
+# Esquema do Cenário: Verificar informações do banner principal
+# Dado que o usuário acessa a página inicial da NEXDOM
+# Então o texto principal do banner deve estar visível
+# E o botão 'Saiba mais' deve estar visível
+# E o botão 'Saiba mais' deve estar habilitado
