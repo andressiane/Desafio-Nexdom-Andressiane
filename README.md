@@ -39,7 +39,7 @@ Os Cenários de Testes executáveis estão em "..\cypress\e2e\steps_definitions"
 Os Casos de Testes em Gherkin estão em "..\cypress\e2e\features".
 
 ## Bugs encontrados:
-Os bugs encontrados estão em Bugs_Encontrados.md <br>
+Os bugs encontrados estão em **Bugs_Encontrados.md** <br>
 E a evidências em "..\cypress\e2e\evidencias
 
 ## Testes de API
