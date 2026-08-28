@@ -9,7 +9,7 @@ do desafio técnico da NEXDOM.
 - Git
 
 ## Como fazer o Download:
-No terminal, execute:
+No terminal, execute: <br>
 git clone <https://github.com/andressiane/Desafio-Nexdom-Andressiane.git>
 
 ## Acesse a pasta do projeto:
@@ -22,14 +22,14 @@ npm install
 ## Execução dos testes com Cypress:
 
 **Execute:** <br>
-npm run cy:open
+npm run cy:open <br>
 ou <br>
 npx cypress open
 
 Em seguida, aparecerá uma janela com duas opções, clique em: <br>
-E2E Testing
+**E2E Testing**
 
-Selecione o navegador desejado e clique em "Start E2E Testing in Chrome" 
+Selecione o navegador desejado e clique em **"Start E2E Testing in Chrome"** 
 (opção utilizada nos testes)
 
 Selecione o teste que deseja executar. <br>
@@ -84,21 +84,22 @@ Depois edite o `cypress.env.json` criado com um Personal Access Token Tokens(Cla
    }
 ```
 
-O token deve ser um Personal Access Token **classic** <br>
+O token deve ser um Personal Access **Token classic** <br>
 (GitHub > Settings > Developer settings > Personal access tokens > Tokens (classic)), com os escopos *repo* (criar/consultar/excluir repositório e issues) e *delete_repo*
 (necessário especificamente para o passo de exclusão do repositório).
 
 ## Execução dos testes com Cypress:
 
 **Execute:** <br>
-npm run cy:open
+npm run cy:open <br>
 ou <br>
 npx cypress open
 
 Em seguida, aparecerá uma janela com duas opções, clique em: <br>
-E2E Testing
+**E2E Testing**
 
-Selecione o navegador desejado e clique em "Start E2E Testing in Chrome" 
+Selecione o navegador desejado e clique em <br>
+"Start E2E Testing in Chrome" <br>
 (opção utilizada nos testes)
 
 *Selecione o teste de API Rest que se encontra em:* <br>
