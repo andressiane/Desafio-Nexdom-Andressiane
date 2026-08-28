@@ -1,4 +1,4 @@
-# Desafio - Desafio técnico: Analista de QA Pleno com Cypress
+# Desafio técnico: Analista de QA Pleno com Cypress
 Projeto de automação de testes End-to-End desenvolvido com Cypress e JavaScript como parte
 do desafio técnico da NEXDOM.
 
@@ -45,9 +45,8 @@ E a evidências em "..\cypress\e2e\evidencias
 ## Testes de API
 Os testes automatizados de API estão documentados abaixo ou no arquivo separado README-API.md
 
-///
 
-# Desafio - Testes de API REST (GitHub) com Cypress
+# Desafio técnico - Testes de API REST (GitHub) com Cypress
 Testes automatizados de API REST desenvolvidos com Cypress para validar endpoints da API do GitHub.
 
 ## Tecnologias utilizadas:
