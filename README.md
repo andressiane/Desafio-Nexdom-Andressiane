@@ -1,25 +1,25 @@
-## Desafio - Desafio técnico: Analista de QA Pleno com Cypress
+# Desafio - Desafio técnico: Analista de QA Pleno com Cypress
 Projeto de automação de testes End-to-End desenvolvido com Cypress e JavaScript como parte
 do desafio técnico da NEXDOM.
 
-# Tecnologias utilizadas:
+## Tecnologias utilizadas:
 Node.js
 Cypress
 JavaScript
 Git
 
-# Como fazer o Download:
+## Como fazer o Download:
 No terminal, execute:
 git clone <https://github.com/andressiane/Desafio-Nexdom-Andressiane.git>
 
-# Acesse a pasta do projeto:
+## Acesse a pasta do projeto:
 cd Desafio-Nexdom-Andressiane
 
-# Dependências
+## Dependências
 Execute no terminal npm install para instalar as dependências
 npm install
 
-# Execução dos testes com Cypress:
+## Execução dos testes com Cypress:
 
 **Execute:**
 npm run cy:open
@@ -35,41 +35,41 @@ Selecione o navegador desejado e clique em "Start E2E Testing in Chrome"
 Selecione o teste que deseja executar.
 Os Cenários de Testes executáveis estão em "..\cypress\e2e\steps_definitions".
 
-# Casos de testes:
+## Casos de testes:
 Os Casos de Testes em Gherkin estão em "..\cypress\e2e\features".
 
-# Bugs encontrados:
+## Bugs encontrados:
 Os bugs encontrados estão em Bugs_Encontrados.md
 E a evidências em "..\cypress\e2e\evidencias
 
-# Testes de API
+## Testes de API
 Os testes automatizados de API estão documentados abaixo ou no arquivo separado README-API.md
 
 ///
 
-## Desafio - Testes de API REST (GitHub) com Cypress
+# Desafio - Testes de API REST (GitHub) com Cypress
 Testes automatizados de API REST desenvolvidos com Cypress para validar endpoints da API do GitHub.
 
-# Tecnologias utilizadas:
+## Tecnologias utilizadas:
 Node.js
 Cypress
 JavaScript
 GitHub REST API
 
-# Como fazer o Download:
+## Como fazer o Download:
 No terminal, execute:
 git clone <https://github.com/andressiane/Desafio-Nexdom-Andressiane.git>
 
-# Acesse a pasta do projeto:
+## Acesse a pasta do projeto:
 cd Desafio-Nexdom-Andressiane
 
-# Dependências
+## Dependências
 Execute no terminal npm install para instalar as dependências
 npm install
 
-# Execução dos testes API REST com Cypress
+## Execução dos testes API REST com Cypress
 
-# Como executar:
+## Como executar:
 Os testes utilizam um Personal Access Token (Tokens(Classic)) do GitHub para autenticação nas requisições.
 
 O token não deve ser inserido diretamente nos arquivos de teste ou versionado no Git.
@@ -87,7 +87,7 @@ O token deve ser um Personal Access Token **classic**
 (GitHub > Settings > Developer settings > Personal access tokens > Tokens (classic)), com os escopos *repo* (criar/consultar/excluir repositório e issues) e *delete_repo*
 (necessário especificamente para o passo de exclusão do repositório).
 
-# Execução dos testes com Cypress:
+## Execução dos testes com Cypress:
 
 **Execute:**
 npm run cy:open
