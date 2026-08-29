@@ -42,11 +42,12 @@ Os cenários de testes e casos de testes estão organizados em arquivos `.featur
 Os mesmos se encontram no caminho "..\cypress\e2e\features".
 
 ## Bugs encontrados:
-Os bugs encontrados estão em **Bugs_Encontrados.md** "..\cypress\Bugs_Encontrados.md<br>
-E as evidências em "..\cypress\e2e\evidencias
+Os bugs encontrados estão em **Bugs_Encontrados.md** "..\cypress\Bugs_Encontrados.md"<br>
+E as evidências em "..\cypress\e2e\evidencias"
 
 ## Testes de API
-Os testes automatizados de API estão documentados abaixo ou no arquivo separado README-API.md
+Os testes automatizados de API Rest estão documentados abaixo ou <br>
+no arquivo separado README-API.md "..\cypress\README-API.md".
 
 
 # Desafio técnico - Testes de API REST (GitHub) com Cypress
