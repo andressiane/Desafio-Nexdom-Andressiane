@@ -4,6 +4,7 @@ do desafio técnico da NEXDOM.
 
 ## Tecnologias utilizadas:
 - Node.js
+- Cucumber + Gherkin
 - Cypress
 - JavaScript
 - Git
@@ -35,8 +36,11 @@ Selecione o navegador desejado e clique em **"Start E2E Testing in Chrome"**
 Selecione o teste que deseja executar. <br>
 Os Cenários de Testes executáveis estão em "..\cypress\e2e\steps_definitions".
 
-## Casos de testes:
-Os Casos de Testes em Gherkin estão em "..\cypress\e2e\features".
+## Estratégias e Casos de testes:
+Os Casos de Testes foram escritos em Gherkin com execução através do Cucumber, usando uma abordagem baseada em BDD (Behavior-Driven Development). <br>
+Os cenários de testes e casos de testes estão organizados em arquivos `.feature`, <br>
+utilizando as palavras-chave `Funcionalidade`, `Cenário`, `Dado`, `Quando`, `Então` e `E`. <br>
+Os mesmos se encontram no caminho "..\cypress\e2e\features".
 
 ## Bugs encontrados:
 Os bugs encontrados estão em **Bugs_Encontrados.md** <br>
