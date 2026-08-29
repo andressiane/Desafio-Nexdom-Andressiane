@@ -38,8 +38,7 @@ Os Cenários de Testes executáveis estão em "..\cypress\e2e\steps_definitions"
 
 ## Estratégias e Casos de testes:
 Os Casos de Testes foram escritos em Gherkin com execução através do Cucumber, usando uma abordagem baseada em BDD (Behavior-Driven Development). <br>
-Os cenários de testes e casos de testes estão organizados em arquivos `.feature`, <br>
-utilizando as palavras-chave `Funcionalidade`, `Cenário`, `Dado`, `Quando`, `Então` e `E`. <br>
+Os cenários de testes e casos de testes estão organizados em arquivos `.feature`, utilizando as palavras-chave `Funcionalidade`, `Cenário`, `Dado`, `Quando`, `Então` e `E`. <br>
 Os mesmos se encontram no caminho "..\cypress\e2e\features".
 
 ## Bugs encontrados:
