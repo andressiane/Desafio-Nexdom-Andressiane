@@ -92,7 +92,7 @@ O token deve ser um Personal Access **Token classic** <br>
 GitHub > Settings > Developer settings > Personal access tokens > clique em **Tokens (classic)** > Clique em Generate New Token > Clique em Generate New Token (Classic) > Coloque um nome em "Note" e defina a validade para 30 dias > Em "Select scopos" selecione os escopos *repo* (criar/consultar/excluir repositório e issues) e *delete_repo*. <br>
 (necessário especificamente para o passo de exclusão do repositório).
 
-## Execução dos testes com Cypress:
+## Execução dos testes de API com Cypress:
 
 **Execute:** <br>
 npm run cy:open <br>
